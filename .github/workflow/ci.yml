@@ -24,3 +24,6 @@ jobs:
       
       - name: Run Test
         run: pytest
+
+      - name: Run File
+        run: python main.py
