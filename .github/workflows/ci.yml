@@ -25,5 +25,5 @@ jobs:
       - name: Run Test
         run: pytest
 
-      - name: Run File
-        run: python main.py
+      - name: Run file
+        run: python src/main.py
