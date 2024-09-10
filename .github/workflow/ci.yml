@@ -3,12 +3,12 @@ name: CI Pipeline
 on: 
   push:
     branches: main
-  pull_request:
+  pull-request:
     branches: main
 
 jobs:
   test:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -16,7 +16,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python_verson: '3.12'
+          python-verson: '3.12'
       
       - name: Install Dependencies
         run: pip install pytest
