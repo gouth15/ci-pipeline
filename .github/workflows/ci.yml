@@ -25,4 +25,4 @@ jobs:
         run: pytest
 
       - name: Run file
-        run: python ../../src/main.py
+        run: python src/main.py
