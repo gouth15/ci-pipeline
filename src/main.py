@@ -1,3 +1,5 @@
+import sys
+
 class Person:
     def __init__(self, fullname: str, age, occupation) -> None:
         self.fullname = fullname
